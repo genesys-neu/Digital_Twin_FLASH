@@ -1,6 +1,9 @@
 import csv
 import random
 import math
+import sys
+
+
 car_loc_ranges = [[(25, -30), (10, -16)],
                   [(113, 18), (49, -37)],
                   [(-14, 6), (-37, 27)],
@@ -44,5 +47,6 @@ def generate_csv_file(filename, num_episodes):
         for episode in range(1, num_episodes + 1):
             writer.writerow(generate_random_row(episode))
 
-# Example usage:
-generate_csv_file('metadata_files/metadata.csv', 10)  # Generate a CSV file with 10 episodes
+# read number of episodes from command line, default is 10
+num_episodes = int(sys.argv[1] if len(sys.argv) > 1 else 10)
+generate_csv_file('metadata_files/metadata.csv', num_episodes)  # Generate a CSV file with 10 episodes

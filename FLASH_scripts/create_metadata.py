@@ -40,12 +40,27 @@ def generate_random_row(episode):
 
 # Generate the CSV file
 def generate_csv_file(filename, num_episodes):
-    with open(filename, 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(columns)  # Write the header row
+    is_empty = True
+    num_rows = 0
+    with open(filename, newline='') as f:
+        reader = csv.reader(f)
+        num_rows = len(list(reader))
 
-        for episode in range(1, num_episodes + 1):
-            writer.writerow(generate_random_row(episode))
+        if reader and num_rows > 1:
+            is_empty = False
+    if is_empty:
+        with open(filename, 'w', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(columns)
+            for episode in range(1, num_episodes + 1):
+                writer.writerow(generate_random_row(episode))
+    else:
+        with open(filename, 'a', newline='') as f:
+            writer = csv.writer(f)
+            for episode in range(num_rows, num_rows + num_episodes):
+                writer.writerow(generate_random_row(episode))
+
+
 
 # read number of episodes from command line, default is 10
 num_episodes = int(sys.argv[1] if len(sys.argv) > 1 else 10)

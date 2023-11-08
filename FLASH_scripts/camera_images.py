@@ -2,6 +2,7 @@ import os
 import bpy
 import multiprocessing
 import re
+import time
 
 
 def parse_episode_number(string):
@@ -23,10 +24,18 @@ def parse_category_number(string):
 
 
 def render_frame(camera_object_name, output_directory):
-    print("started")
+    # Set the rendering engine to Cycles
+    bpy.context.scene.render.engine = 'BLENDER_EEVEE'
+
+    # devices = bpy.context.preferences.addons['cycles'].preferences['devices']
+
+    # for dev in devices:
+    #     dev['use'] = 1
+    # get_devices() to let Blender detects GPU device
+    # print("started")
     # Get the camera object by name
     camera_object = bpy.data.objects.get(camera_object_name)
-    print(camera_object)
+    # print(camera_object)
     if camera_object is not None:        
         # Check if the camera object is already in the scene collection
         # Set the active camera
@@ -38,7 +47,7 @@ def render_frame(camera_object_name, output_directory):
         
         # Render the current frame with the active camera
         print("rendering")
-        bpy.ops.render.render(animation=True, write_still=True, use_viewport=True)
+        bpy.ops.render.render(animation=True)
     else:
         print(f"Camera object '{camera_object_name}' not found.")
 
@@ -51,6 +60,7 @@ def create_folder_if_not_exists(directory, folder_name):
 
 if __name__ == "__main__":
 
+    start_time = time.time()
     camera_object_names = ["Camera.001", "Camera.003"]
     destination_directory = "FLASH_TL/IMAGE"
     ep_num = parse_episode_number(bpy.data.filepath)
@@ -97,3 +107,4 @@ if __name__ == "__main__":
     # Close the worker processes pool
     pool.close()
     pool.join()
+    print(f"Execution time = {time.time() - start_time}")

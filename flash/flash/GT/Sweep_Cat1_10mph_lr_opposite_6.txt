@@ -1,0 +1,2938 @@
+Counter: 14188 swps, 329010 pkts
+Sector Sweep Dump: {
+  [sec: 26 rssi:    5529 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    5003 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    4300 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    6341 snr: -13 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    6296 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    4907 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    5231 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4982 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 2
+  SQ     = 35
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000045bc7b4e
+  TxMCS =  1 TxTpt =  385
+  SQI =   35
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:11 peer 255:16
+  Goodput(rx:tx) 1118:   0
+}
+Time: 16:13:26.771084
+---------------End of One Sector Sweeping--------------
+
+Counter: 14238 swps, 330424 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    5099 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    4242 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4962 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4344 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    4248 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4785 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4302 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5622 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    5354 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4777 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    6422 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6513 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    5064 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    4173 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    5106 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6256 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    4161 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    4127 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    4550 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    4652 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    3987 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    6374 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5292 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    4088 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    5108 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4068 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4497 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 4
+  Rx_mcs = 7
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000045cea6c7
+  TxMCS =  0 TxTpt =    0
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:28.000330
+---------------End of One Sector Sweeping--------------
+
+Counter: 14293 swps, 332003 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    5040 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4160 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    5040 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    3534 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3951 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4144 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5667 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4207 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    3571 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    4136 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5834 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6535 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4972 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    4079 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4348 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5482 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    4196 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    3989 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    4691 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    4203 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    3945 snr: -21 qdB (-5 dB) src: 84:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5907 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5289 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    4023 snr: -25 qdB (-6 dB) src: 04:ce:5d:0a:b9:5a]
+  [sec: 31 rssi:    3712 snr: -36 qdB (-9 dB) src: 04:ce:5d:0a:b9:5a]
+  [sec: 61 rssi:    4900 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    3978 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 7
+  SQ     = 35
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000045df9881
+  TxMCS =  1 TxTpt =  385
+  SQI =   35
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:19 peer 255:16
+  Goodput(rx:tx) 1344:   0
+}
+Time: 16:13:29.110373
+---------------End of One Sector Sweeping--------------
+
+Counter: 14379 swps, 334417 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    8334 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    7494 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    8127 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    7712 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    6889 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    9355 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    7465 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    6250 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:   10475 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    7294 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:   10272 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    7949 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    7576 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    7959 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    9918 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    7631 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    7304 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    7961 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    9764 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    8377 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    7309 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    8055 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    6170 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 2
+  Rx_mcs = 6
+  SQ     = 35
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000045ee212e
+  TxMCS =  0 TxTpt =    0
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:30.060744
+---------------End of One Sector Sweeping--------------
+
+Counter: 14493 swps, 337623 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4813 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    4066 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4074 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4348 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    4130 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    3386 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    3960 snr: -39 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4448 snr: -56 qdB (-14 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5580 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4287 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3392 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3686 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4114 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5394 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    4900 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    4118 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 2
+  Rx_mcs = 2
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000045fd88f6
+  TxMCS =  0 TxTpt =    0
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:31.070371
+---------------End of One Sector Sweeping--------------
+
+Counter: 14562 swps, 339618 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4145 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    3396 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    3916 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4500 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    3362 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    3350 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3962 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4076 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    3836 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5540 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4216 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3652 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    6052 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    4092 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    4028 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6255 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4966 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4868 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5174 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    3972 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    4992 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    4117 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    3330 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    6074 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5162 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4778 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4238 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x00000000460bccb4
+  TxMCS =  1 TxTpt =  385
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:11 peer 255:19
+  Goodput(rx:tx)  280:   1
+}
+Time: 16:13:31.981251
+---------------End of One Sector Sweeping--------------
+
+Counter: 14643 swps, 341930 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4709 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    3412 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4088 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    5092 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    4120 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    3928 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3621 snr: -30 qdB (-7 dB) src: 04:cf:14:08:b9:5a]
+  [sec:  7 rssi:    4200 snr: -31 qdB (-8 dB) src: 04:cf:14:08:b9:5a]
+  [sec: 10 rssi:    5101 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4300 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    3521 snr: -31 qdB (-8 dB) src: 04:8e:84:4a:b8:59]
+  [sec: 15 rssi:    4466 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5317 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    3694 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5372 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4987 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3977 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4931 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5170 snr: -13 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    3356 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    4634 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5156 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    4890 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    3335 snr: -28 qdB (-7 dB) src: 14:ce:14:8b:b9:58]
+  [sec: 29 rssi:    5432 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5088 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3622 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4400 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3650 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4490 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x00000000461a565e
+  TxMCS =  4 TxTpt = 1155
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:19 peer 255:23
+  Goodput(rx:tx)  360:   0
+}
+Time: 16:13:32.933034
+---------------End of One Sector Sweeping--------------
+
+Counter: 14753 swps, 345109 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4510 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    3486 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4365 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    4089 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    3820 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    4934 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4131 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5975 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    3652 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5466 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4243 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4292 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5285 snr: -13 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    4589 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    3505 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5096 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    4783 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    3193 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    6176 snr: -13 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3890 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3752 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3560 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4682 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4265 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 1
+  SQ     = 35
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x00000000462ba869
+  TxMCS =  0 TxTpt =    0
+  SQI =   35
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:34.100555
+---------------End of One Sector Sweeping--------------
+
+Counter: 14855 swps, 348069 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4918 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4032 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    5038 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3947 snr: -26 qdB (-6 dB) src: c6:91:10:29:a0:5a]
+  [sec:  8 rssi:    4139 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5273 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4114 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4238 snr: -31 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5969 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    5583 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6416 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4224 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3553 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4423 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5393 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    3918 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5075 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    4636 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    3792 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    6026 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3918 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4726 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3644 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4221 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 4
+  SQ     = 35
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000004639c90c
+  TxMCS =  1 TxTpt =  385
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96: 5 peer 255:16
+  Goodput(rx:tx)  272:   0
+}
+Time: 16:13:35.010812
+---------------End of One Sector Sweeping--------------
+
+Counter: 14977 swps, 351640 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4935 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4065 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    5046 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    4105 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3859 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4596 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    3513 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    4576 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4125 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4182 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5630 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    3546 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5780 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4206 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3925 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4240 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5326 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    4120 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    4016 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5144 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    4186 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    3620 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5909 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5127 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    3432 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4497 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3638 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x00000000464915fa
+  TxMCS =  1 TxTpt =  385
+  SQI =   35
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:19 peer 255:16
+  Goodput(rx:tx)  266:   0
+}
+Time: 16:13:36.020274
+---------------End of One Sector Sweeping--------------
+
+Counter: 15085 swps, 354717 pkts
+Sector Sweep Dump: {
+  [sec:  2 rssi:    4034 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4332 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    3706 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    3656 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4013 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    4917 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4078 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3380 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    6006 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5201 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    3590 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3952 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4796 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5114 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    3866 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    4427 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    4120 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    3736 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5845 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5069 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    3941 snr: -30 qdB (-7 dB) src: 04:de:14:8b:bc:da]
+  [sec: 61 rssi:    4303 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3444 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    3989 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 6
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x00000000465814f1
+  TxMCS =  1 TxTpt =  385
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:19 peer 255:16
+  Goodput(rx:tx)   58:   0
+}
+Time: 16:13:37.010333
+---------------End of One Sector Sweeping--------------
+
+Counter: 15199 swps, 357997 pkts
+Sector Sweep Dump: {
+  [sec: 26 rssi:    6338 snr: -31 qdB (-8 dB) src: d0:c8:14:98:72:57]
+  [sec: 26 rssi:    7930 snr: -40 qdB (-10 dB) src: d0:c8:14:98:72:57]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000004667c7d9
+  TxMCS =  0 TxTpt =    0
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:38.000984
+---------------End of One Sector Sweeping--------------
+
+Counter: 15333 swps, 361823 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    8199 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    7495 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    8201 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    7088 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    6736 snr: -39 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    6873 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    8425 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    6994 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    6210 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    7306 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:   11690 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    6728 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:   10097 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    7888 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    6444 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    7926 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    8816 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    6454 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    6430 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    8341 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    6806 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    7173 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    9937 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    9775 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    6422 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    7467 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    5890 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 4
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000046793d40
+  TxMCS =  4 TxTpt = 1155
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:19 peer 255:30
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:39.141688
+---------------End of One Sector Sweeping--------------
+
+Counter: 15379 swps, 363157 pkts
+Sector Sweep Dump: {
+  [sec:  5 rssi:    5208 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    3560 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    3421 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    4948 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4114 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5545 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    3986 snr: -31 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5860 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4126 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    4459 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4802 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5096 snr: -13 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    3768 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    3801 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    4308 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    4132 snr: -45 qdB (-11 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    3382 snr: -25 qdB (-6 dB) src: 24:5e:17:02:98:5a]
+  [sec: 29 rssi:    5259 snr: -13 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5076 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3430 snr: -39 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4379 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4190 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000004688a819
+  TxMCS =  1 TxTpt =  385
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:19 peer 255:16
+  Goodput(rx:tx)   81:   0
+}
+Time: 16:13:40.189821
+---------------End of One Sector Sweeping--------------
+
+Counter: 15552 swps, 368132 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4262 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    3268 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4016 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4212 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    3264 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    3676 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    4967 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4511 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4008 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    6212 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    3772 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5810 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4050 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3342 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4173 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5179 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    4041 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    3347 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    4956 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    4037 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5343 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5138 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    4006 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4396 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3224 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4510 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 7
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000046989a76
+  TxMCS =  0 TxTpt =    0
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000000 Failed
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:41.232105
+---------------End of One Sector Sweeping--------------
+
+Counter: 15722 swps, 373033 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    8142 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    6741 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    8191 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    7631 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    7463 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    7559 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    6800 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    9354 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    7620 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:   10388 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:   10145 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    7952 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    7308 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    7917 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    9982 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    6575 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    6702 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    8517 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    7842 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    6448 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    9978 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    8674 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    6598 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    7918 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    7500 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000046a780bb
+  TxMCS =  1 TxTpt =  385
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:11 peer 255:30
+  Goodput(rx:tx)   56:   0
+}
+Time: 16:13:42.210278
+---------------End of One Sector Sweeping--------------
+
+Counter: 15845 swps, 376689 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    8128 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  1 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    7361 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    8230 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    6549 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    6238 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    6662 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    9321 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    7062 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:   10146 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    7526 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    6440 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:   11411 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    7830 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    6502 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    7787 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    8677 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    7589 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    7334 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    8271 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    7712 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    6618 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    9053 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    9914 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    5572 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    8371 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    6987 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 4
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000046b6fde6
+  TxMCS =  1 TxTpt =  385
+  SQI =   35
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:19 peer 255:16
+  Goodput(rx:tx)    2:   0
+}
+Time: 16:13:43.232110
+---------------End of One Sector Sweeping--------------
+
+Counter: 15944 swps, 379620 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4617 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4992 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4370 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    4520 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4177 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4899 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4308 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5546 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3943 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    3937 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5506 snr:  -1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    3992 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5864 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4804 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    4085 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    5132 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6211 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    4140 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    3784 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5716 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    3972 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5196 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5535 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4687 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4834 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000046c58ba6
+  TxMCS =  0 TxTpt =    0
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:44.179623
+---------------End of One Sector Sweeping--------------
+
+Counter: 16085 swps, 383797 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    6453 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    8576 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    8541 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    8292 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    8153 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    8123 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    7627 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:   10684 snr:   2 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    9026 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    8263 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:   10520 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    7778 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    6359 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:   11579 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    6424 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:   12436 snr:   2 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:   10715 snr:   1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    9471 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    6269 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:   11198 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    6757 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    6243 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:   10473 snr:   1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:   12934 snr:   1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5932 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 60 rssi:    6991 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    7897 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    5898 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    6858 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 8
+  Rx_mcs = 8
+  SQ     = 50
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000046d8e467
+  TxMCS =  8 TxTpt = 2310
+  SQI =   65
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:17 peer 255:22
+  Goodput(rx:tx) 1546:   5
+}
+Time: 16:13:45.451932
+---------------End of One Sector Sweeping--------------
+
+Counter: 16088 swps, 383897 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    3710 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    4006 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    3956 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    3236 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    3243 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3183 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4220 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5418 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 11 rssi:    3161 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3926 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    3318 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    3385 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4401 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    3234 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    6899 snr:   5 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    4080 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    2761 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4081 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3428 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    6313 snr:  -4 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    3590 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    4354 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    4597 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    3333 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    7124 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    3193 snr: -29 qdB (-7 dB) src: 24:ce:14:09:bc:5e]
+  [sec: 30 rssi:    4238 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3416 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    5335 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    4655 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    3124 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 8
+  Rx_mcs = 8
+  SQ     = 60
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000046e63a9a
+  TxMCS =  4 TxTpt = 1155
+  SQI =   60
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:20 peer 255:20
+  Goodput(rx:tx) 1298:   0
+}
+Time: 16:13:46.319512
+---------------End of One Sector Sweeping--------------
+
+Counter: 16091 swps, 384005 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:   17898 snr:  22 qdB ( 6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    9414 snr:   5 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    5128 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:   12726 snr:  10 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:   12810 snr:  16 qdB ( 4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:   16256 snr:  15 qdB ( 4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:   32518 snr:  35 qdB ( 9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:   10364 snr:  12 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    6373 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    6666 snr:   1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 11 rssi:    4721 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    9603 snr:   9 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:   10005 snr:  10 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:   20980 snr:  20 qdB ( 5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:   15920 snr:  13 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:   83050 snr:  51 qdB (13 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:   40448 snr:  31 qdB ( 8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    7686 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    9776 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:  197990 snr:  59 qdB (15 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    8469 snr:   9 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    6270 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:   17416 snr:  23 qdB ( 6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:   26518 snr:  27 qdB ( 7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:   15363 snr:  18 qdB ( 5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:   19456 snr:  18 qdB ( 5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:   19860 snr:  25 qdB ( 6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:   12526 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:   26086 snr:  31 qdB ( 8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:   40253 snr:  35 qdB ( 9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    4188 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 59 rssi:   13612 snr:  13 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 60 rssi:    4161 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:   62068 snr:  40 qdB (10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:   13514 snr:  15 qdB ( 4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:  252900 snr:  58 qdB (15 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 3
+  Rx_mcs = 8
+  SQ     = 65
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000046f41f12
+  TxMCS =  3 TxTpt =  962
+  SQI =   65
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:16 peer 255:63
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:47.229649
+---------------End of One Sector Sweeping--------------
+
+Counter: 16102 swps, 384303 pkts
+Sector Sweep Dump: {
+  [sec:  7 rssi:    3886 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3590 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3813 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    3888 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    3398 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3419 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    3483 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    3282 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    3498 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    3776 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    3568 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3450 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 59 rssi:    3419 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 59 rssi:    3260 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 59 rssi:    3348 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 1
+  SQ     = 30
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000047034f59
+  TxMCS =  0 TxTpt =    0
+  SQI =   30
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:48.229496
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385372 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 1
+  SQ     = 30
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000047148360
+  TxMCS =  0 TxTpt =    0
+  SQI =   30
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:13:49.359199
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:13:50.359275
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:13:51.339532
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:13:52.310875
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:13:53.389263
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:13:54.439166
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:13:55.391299
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:13:56.420638
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:13:57.420660
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:13:58.361001
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:13:59.330225
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:00.310119
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:01.360387
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:02.350587
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:03.430502
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:04.409898
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:05.340352
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:06.350234
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:07.409967
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:08.409841
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:09.339961
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:10.340037
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:14:11.380181
+---------------End of One Sector Sweeping--------------
+
+Counter: 16127 swps, 385378 pkts
+Sector Sweep Dump: {
+  [sec: 18 rssi:    3536 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3536 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3998 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3985 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3832 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3562 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3646 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Counter: 16176 swps, 386711 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    5001 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    5022 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4913 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    3513 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    4032 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4315 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4182 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    4207 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5984 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4530 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    4663 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4975 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    6371 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    4216 snr: -40 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6681 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4170 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3757 snr: -48 qdB (-12 dB) src: 04:ce:1c:0a:ba:5a]
+  [sec: 22 rssi:    5322 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6200 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    4182 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5836 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5856 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    6183 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    4136 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    4166 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4851 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    4045 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4323 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 2
+  Rx_mcs = 8
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000004fbba789
+  TxMCS =  1 TxTpt =  385
+  SQI =   30
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:11 peer 255:19
+  Goodput(rx:tx)  581:   2
+}
+Time: 16:16:14.521531
+---------------End of One Sector Sweeping--------------
+
+Counter: 16222 swps, 388069 pkts
+Sector Sweep Dump: {
+  [sec:  2 rssi:    4765 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    8640 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    8868 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    7518 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:   10248 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    9115 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    8075 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    8821 snr: -13 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:   12007 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:   11539 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:   10700 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:   10563 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    8172 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    7094 snr: -31 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:   11702 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    9932 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:   11807 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    7836 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 60 rssi:    7078 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    8287 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    7386 snr: -39 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    8428 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 8
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000004fcb663c
+  TxMCS =  2 TxTpt =  770
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:26 peer 255:23
+  Goodput(rx:tx) 1088:   2
+}
+Time: 16:16:15.551298
+---------------End of One Sector Sweeping--------------
+
+Counter: 16289 swps, 390007 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4344 snr: -56 qdB (-14 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4280 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4137 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    3908 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    4351 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4865 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4296 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    4276 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5278 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4255 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    3648 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4536 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5434 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    4044 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6761 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4045 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    5154 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6243 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    3940 snr: -45 qdB (-11 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5533 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    3950 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5173 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5978 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3996 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4636 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3962 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4725 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 4
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000004fdb403b
+  TxMCS =  1 TxTpt =  385
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:26 peer 255:19
+  Goodput(rx:tx)  409:   0
+}
+Time: 16:16:16.591435
+---------------End of One Sector Sweeping--------------
+
+Counter: 16381 swps, 392649 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    5453 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4390 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    3740 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    4039 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3574 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4063 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    4030 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    4612 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4231 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    4009 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4735 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    6112 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6188 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4074 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3565 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4421 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6014 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    4104 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    3624 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5412 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    3918 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5602 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    6069 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    4016 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    3634 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 60 rssi:    3882 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4674 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3750 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4249 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000004feab2fc
+  TxMCS =  1 TxTpt =  385
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:11 peer 255:23
+  Goodput(rx:tx)  683:   0
+}
+Time: 16:16:17.601516
+---------------End of One Sector Sweeping--------------
+
+Counter: 16488 swps, 395840 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4679 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    4232 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    3576 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4136 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    4030 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    4102 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4242 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    3386 snr: -52 qdB (-13 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5438 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4346 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    4186 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    5263 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    6295 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    4052 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6263 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    4212 snr: -43 qdB (-11 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    5206 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6204 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    4108 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    6217 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    3361 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5346 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5352 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    4121 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    3860 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 60 rssi:    3896 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4876 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    4692 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4814 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 1
+  Rx_mcs = 4
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000004ff9c7eb
+  TxMCS =  0 TxTpt =    0
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:16:18.592067
+---------------End of One Sector Sweeping--------------
+
+Counter: 16590 swps, 398826 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4546 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    4232 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4240 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4898 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    3962 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    3970 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4050 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4016 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    3894 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5098 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4246 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    3359 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4589 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    4480 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6025 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    3944 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    3656 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4972 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5180 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    3498 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5724 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    3392 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    3544 snr: -39 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    4622 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5208 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    3272 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 60 rssi:    3467 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4089 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    3921 snr: -31 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4128 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 4
+  Rx_mcs = 2
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050091d70
+  TxMCS =  4 TxTpt = 1155
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:26 peer 255:23
+  Goodput(rx:tx)  812:   1
+}
+Time: 16:16:19.564042
+---------------End of One Sector Sweeping--------------
+
+Counter: 16710 swps, 402421 pkts
+Sector Sweep Dump: {
+  [sec:  6 rssi:    4073 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4123 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3904 snr: -31 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    4098 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5192 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4753 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3936 snr: -31 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    5101 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5328 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    4122 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6188 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    3952 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3867 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    5920 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6222 snr: -13 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    4004 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    3590 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5526 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5119 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5332 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    3990 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    3582 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4287 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3862 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4521 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 4
+  Rx_mcs = 8
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050180279
+  TxMCS =  0 TxTpt =    0
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:16:20.532768
+---------------End of One Sector Sweeping--------------
+
+Counter: 16797 swps, 404927 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4947 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4285 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4190 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    3943 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    4051 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4724 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4023 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    3952 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5616 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4266 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3726 snr: -44 qdB (-11 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4327 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5427 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    3997 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5726 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4100 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3915 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4942 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6012 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    4716 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5842 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    3680 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5091 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5227 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3654 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3694 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4140 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    3859 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    3672 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050267747
+  TxMCS =  0 TxTpt =    0
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:16:21.521467
+---------------End of One Sector Sweeping--------------
+
+Counter: 16915 swps, 408331 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4814 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4245 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4196 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    3792 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    4027 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3567 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    3475 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    3932 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5122 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4211 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    3893 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    3384 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4280 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 8
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050359bc8
+  TxMCS =  4 TxTpt = 1155
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:26 peer 255:23
+  Goodput(rx:tx)  182:   1
+}
+Time: 16:16:22.511185
+---------------End of One Sector Sweeping--------------
+
+Counter: 17028 swps, 411627 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4358 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    4162 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4224 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4914 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    3444 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    3410 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4163 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4024 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    3454 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5146 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4296 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    3391 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4627 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    6260 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    3990 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    6063 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4086 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3987 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4418 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    4662 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    3975 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5895 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    3814 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5089 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5300 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    2878 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4427 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3614 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4229 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 3
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000005044d619
+  TxMCS =  4 TxTpt = 1155
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:26 peer 255:16
+  Goodput(rx:tx)  625:   0
+}
+Time: 16:16:23.481032
+---------------End of One Sector Sweeping--------------
+
+Counter: 17112 swps, 414095 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4851 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4237 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    3264 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    3498 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4079 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3950 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5236 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4273 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    4037 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4265 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5316 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    3945 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5273 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    3958 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    3463 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    5582 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6046 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    3846 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    3516 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5366 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    3720 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5078 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5301 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3592 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3718 snr: -39 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4087 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3500 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    3821 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 4
+  Rx_mcs = 6
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000005052c6a4
+  TxMCS =  4 TxTpt = 1155
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:26 peer 255:16
+  Goodput(rx:tx)   26:   0
+}
+Time: 16:16:24.431097
+---------------End of One Sector Sweeping--------------
+
+Counter: 17245 swps, 417966 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    7916 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    7013 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    7914 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    6566 snr: -40 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    7378 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    7729 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    7335 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    8605 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    7738 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    6904 snr: -48 qdB (-12 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    7916 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    9999 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:   10752 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    6668 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    8489 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    8611 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    6614 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    9934 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    9254 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    9903 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    6519 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    6644 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    7680 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    6437 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    7761 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 4
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050621e64
+  TxMCS =  0 TxTpt =    0
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:16:25.431070
+---------------End of One Sector Sweeping--------------
+
+Counter: 17362 swps, 421380 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4702 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4528 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4861 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    3275 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    4051 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4090 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4051 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    3950 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5112 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4469 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    4029 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4268 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5240 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5606 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4695 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    4425 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4978 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5994 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    3902 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    3486 snr: -39 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5740 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    3769 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    4455 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5892 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    3929 snr: -31 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    3548 snr: -39 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3688 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    3421 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4063 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 4
+  Rx_mcs = 1
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000005070b730
+  TxMCS =  4 TxTpt = 1155
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:26 peer 255:19
+  Goodput(rx:tx)  262:   0
+}
+Time: 16:16:26.391164
+---------------End of One Sector Sweeping--------------
+
+Counter: 17491 swps, 425153 pkts
+Sector Sweep Dump: {
+  [sec: 23 rssi:    3214 snr: -25 qdB (-6 dB) src: 8d:ce:14:0a:f8:5a]
+  [sec: 60 rssi:    3495 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4104 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    3915 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 4
+  Rx_mcs = 4
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x000000005080b1a1
+  TxMCS =  4 TxTpt = 1155
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:26 peer 255:16
+  Goodput(rx:tx)  450:   1
+}
+Time: 16:16:27.441041
+---------------End of One Sector Sweeping--------------
+
+Counter: 17630 swps, 429287 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4200 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    4749 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4781 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    3736 snr: -38 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    3973 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4034 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3808 snr: -43 qdB (-11 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    3537 snr: -26 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5023 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3957 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    3900 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4154 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5298 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    3606 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5446 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    3973 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    3590 snr: -30 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4961 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5185 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    3447 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    4700 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    4528 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    5222 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3326 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 60 rssi:    3709 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4033 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    3456 snr: -35 qdB (-9 dB) src: 04:ee:14:0a:b8:5a]
+  [sec: 63 rssi:    3792 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 2
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x00000000508fb1eb
+  TxMCS =  4 TxTpt = 1155
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96: 8 peer 255:26
+  Goodput(rx:tx)  240:   0
+}
+Time: 16:16:28.421026
+---------------End of One Sector Sweeping--------------
+
+Counter: 17786 swps, 433962 pkts
+Sector Sweep Dump: {
+  [sec:  2 rssi:    4065 snr: -22 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    4182 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    4650 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    3977 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    3491 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4101 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    3814 snr: -45 qdB (-11 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    5029 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4746 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4027 snr: -21 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    5108 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    3778 snr: -36 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    3914 snr: -24 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    5362 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    3684 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    4920 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6055 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    3426 snr: -33 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    5479 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    3403 snr: -29 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    4064 snr: -32 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    5059 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    4964 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3724 snr: -39 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3970 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 8
+  SQ     = 40
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x00000000509ed7ff
+  TxMCS =  4 TxTpt = 1155
+  SQI =   40
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:11 peer 255:23
+  Goodput(rx:tx)  236:   0
+}
+Time: 16:16:29.411051
+---------------End of One Sector Sweeping--------------
+
+Counter: 17861 swps, 436260 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    4574 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    5264 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    6084 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    7654 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    5174 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    5052 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    4422 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:    4235 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:    7862 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 11 rssi:    3982 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    6126 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    3536 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    4691 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    8137 snr:   5 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    4941 snr: -15 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    3440 snr: -39 qdB (-10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    9498 snr:   5 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    4078 snr: -17 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    4096 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    6699 snr:   5 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    6520 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:    5148 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    3522 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    6382 snr:  -1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    4304 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    4875 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    6535 snr:   2 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    8440 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3764 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    3550 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 60 rssi:    3939 snr: -20 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    4933 snr: -13 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    3626 snr: -43 qdB (-11 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    5146 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 6
+  Rx_mcs = 8
+  SQ     = 50
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050add626
+  TxMCS =  6 TxTpt = 1470
+  SQI =   50
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96: 8 peer 255:30
+  Goodput(rx:tx) 1389:   0
+}
+Time: 16:16:30.390711
+---------------End of One Sector Sweeping--------------
+
+Counter: 17864 swps, 436361 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    7793 snr:   2 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    4242 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:    5028 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:    6140 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    3729 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    4158 snr:  -9 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:   10238 snr:  10 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:    2956 snr: -31 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:   10009 snr:   5 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 11 rssi:    4844 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:    4277 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:    4827 snr:  -7 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    4837 snr:  -6 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    6614 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:    4208 snr:  -8 qdB (-2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:   16114 snr:  16 qdB ( 4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:    7992 snr:   1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:    4030 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:    6164 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:    7670 snr:   5 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:    6984 snr:   1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:    5423 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:   10363 snr:  10 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:    3202 snr: -25 qdB (-6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:    7917 snr:   1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    5846 snr: -14 qdB (-3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:    9651 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:    3255 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    7872 snr:   2 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:    2974 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 60 rssi:    3205 snr: -18 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:    9699 snr:  10 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    5076 snr:  -1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:    4156 snr: -16 qdB (-4 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 8
+  Rx_mcs = 3
+  SQ     = 80
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050c03e25
+  TxMCS =  6 TxTpt = 1540
+  SQI =   85
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:24 peer 255:63
+  Goodput(rx:tx)  994:   2
+}
+Time: 16:16:31.601082
+---------------End of One Sector Sweeping--------------
+
+Counter: 17871 swps, 436613 pkts
+Sector Sweep Dump: {
+  [sec:  1 rssi:    9283 snr:   5 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  2 rssi:    7138 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  3 rssi:   10322 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  4 rssi:   12432 snr:   9 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  5 rssi:    8012 snr:   5 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  6 rssi:    6290 snr:  -5 qdB (-1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  7 rssi:    9984 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  8 rssi:   27172 snr:  28 qdB ( 7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec:  9 rssi:   10048 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 10 rssi:   66208 snr:  43 qdB (11 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 11 rssi:   12956 snr:  15 qdB ( 4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 12 rssi:   31822 snr:  25 qdB ( 6 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 13 rssi:   49632 snr:  36 qdB ( 9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    9676 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 15 rssi:    6379 snr:   1 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 16 rssi:  168324 snr:  56 qdB (14 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 17 rssi:    8047 snr:   6 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 18 rssi:   52077 snr:  39 qdB (10 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 19 rssi:   33428 snr:  28 qdB ( 7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 20 rssi:   51150 snr:  33 qdB ( 8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 21 rssi:   19328 snr:  20 qdB ( 5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 22 rssi:   12359 snr:  13 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 23 rssi:   31720 snr:  30 qdB ( 8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 24 rssi:  103074 snr:  46 qdB (12 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 25 rssi:   12810 snr:  15 qdB ( 4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 26 rssi:   10778 snr:  10 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 27 rssi:    7946 snr:   5 qdB ( 1 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 28 rssi:   20938 snr:  20 qdB ( 5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 29 rssi:   11666 snr:  12 qdB ( 3 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 30 rssi:   17216 snr:  15 qdB ( 4 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 31 rssi:    7667 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 59 rssi:   25348 snr:  27 qdB ( 7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 60 rssi:    9888 snr:   9 qdB ( 2 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 61 rssi:   64518 snr:  42 qdB (11 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 62 rssi:    3420 snr: -19 qdB (-5 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 63 rssi:   39083 snr:  32 qdB ( 8 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 8
+  Rx_mcs = 8
+  SQ     = 70
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050ce97dc
+  TxMCS =  4 TxTpt = 1155
+  SQI =   50
+  RSSI =    0
+  Status = 0x00000001 OK
+  Sectors(rx:tx) my 96:30 peer 255:16
+  Goodput(rx:tx) 1269:   0
+}
+Time: 16:16:32.540506
+---------------End of One Sector Sweeping--------------
+
+Counter: 17878 swps, 436770 pkts
+Sector Sweep Dump: {
+  [sec: 14 rssi:    3341 snr: -28 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    3348 snr: -35 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    3440 snr: -34 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    3406 snr: -37 qdB (-9 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    3208 snr: -31 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:       0 snr:   0 qdB ( 0 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    3422 snr: -27 qdB (-7 dB) src: 04:ce:14:0a:b8:5a]
+  [sec: 14 rssi:    3440 snr: -31 qdB (-8 dB) src: 04:ce:14:0a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 4
+  SQ     = 35
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050dece3f
+  TxMCS =  0 TxTpt =    0
+  SQI =   35
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:16:33.670565
+---------------End of One Sector Sweeping--------------
+
+Counter: 17886 swps, 436893 pkts
+Sector Sweep Dump: {
+  [sec: 25 rssi:    3971 snr: -30 qdB (-7 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3971 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3566 snr: -31 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3344 snr: -40 qdB (-10 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3836 snr: -35 qdB (-9 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3768 snr: -43 qdB (-11 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3946 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 4
+  SQ     = 35
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050ef4ac6
+  TxMCS =  0 TxTpt =    0
+  SQI =   35
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:16:34.680862
+---------------End of One Sector Sweeping--------------
+
+Counter: 17886 swps, 436893 pkts
+Sector Sweep Dump: {
+  [sec: 25 rssi:    3971 snr: -30 qdB (-7 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3971 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3566 snr: -31 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3344 snr: -40 qdB (-10 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3836 snr: -35 qdB (-9 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3768 snr: -43 qdB (-11 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3946 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 4
+  SQ     = 35
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x0000000050ff2f9f
+  TxMCS =  0 TxTpt =    0
+  SQI =   35
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:16:35.741165
+---------------End of One Sector Sweeping--------------
+
+Counter: 17886 swps, 436893 pkts
+Sector Sweep Dump: {
+  [sec: 25 rssi:    3971 snr: -30 qdB (-7 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3971 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3566 snr: -31 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3344 snr: -40 qdB (-10 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3836 snr: -35 qdB (-9 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3768 snr: -43 qdB (-11 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3946 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a connected
+  Tx_mcs = 0
+  Rx_mcs = 4
+  SQ     = 35
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+CID 0 {
+  TSF = 0x00000000510f0f17
+  TxMCS =  0 TxTpt =    0
+  SQI =   35
+  RSSI =    0
+  Status = 0x00000002 Retrying
+  Sectors(rx:tx) my 255:255 peer 255:255
+  Goodput(rx:tx)    0:   0
+}
+Time: 16:16:36.770523
+---------------End of One Sector Sweeping--------------
+
+Counter: 17886 swps, 436893 pkts
+Sector Sweep Dump: {
+  [sec: 25 rssi:    3971 snr: -30 qdB (-7 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3971 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3566 snr: -31 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3344 snr: -40 qdB (-10 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3836 snr: -35 qdB (-9 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3768 snr: -43 qdB (-11 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3946 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:16:37.751782
+---------------End of One Sector Sweeping--------------
+
+Counter: 17886 swps, 436893 pkts
+Sector Sweep Dump: {
+  [sec: 25 rssi:    3971 snr: -30 qdB (-7 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3971 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3566 snr: -31 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3344 snr: -40 qdB (-10 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3836 snr: -35 qdB (-9 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3768 snr: -43 qdB (-11 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3946 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:16:38.711758
+---------------End of One Sector Sweeping--------------
+
+Counter: 17886 swps, 436893 pkts
+Sector Sweep Dump: {
+  [sec: 25 rssi:    3971 snr: -30 qdB (-7 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3971 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3566 snr: -31 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3344 snr: -40 qdB (-10 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3836 snr: -35 qdB (-9 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3768 snr: -43 qdB (-11 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3946 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   
+Time: 16:16:39.810796
+---------------End of One Sector Sweeping--------------
+
+Counter: 17886 swps, 436893 pkts
+Sector Sweep Dump: {
+  [sec: 25 rssi:    3971 snr: -30 qdB (-7 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3971 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3566 snr: -31 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3344 snr: -40 qdB (-10 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3836 snr: -35 qdB (-9 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3768 snr: -43 qdB (-11 dB) src: 44:8e:9c:8a:b8:5a]
+  [sec: 25 rssi:    3946 snr: -34 qdB (-8 dB) src: 44:8e:9c:8a:b8:5a]
+}
+[0] 04:ce:14:0a:b8:5a unused   
+[1] 00:00:00:00:00:00 unused   
+[2] 00:00:00:00:00:00 unused   
+[3] 00:00:00:00:00:00 unused   
+[4] 00:00:00:00:00:00 unused   
+[5] 00:00:00:00:00:00 unused   
+[6] 00:00:00:00:00:00 unused   
+[7] 00:00:00:00:00:00 unused   

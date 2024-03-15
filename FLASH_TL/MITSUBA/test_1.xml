@@ -1,0 +1,879 @@
+<scene version="2.1.0">
+
+<!-- Defaults, these can be set via the command line: -Darg=value -->
+
+	<default name="spp" value="4096"/>
+	<default name="resx" value="1920"/>
+	<default name="resy" value="1080"/>
+
+<!-- Camera and Rendering Parameters -->
+
+	<integrator type="path">
+		<integer name="max_depth" value="12"/>
+		<integer name="rr_depth" value="5"/>
+		<boolean name="hide_emitters" value="false"/>
+	</integrator>
+	<sensor type="perspective">
+		<string name="fov_axis" value="x"/>
+		<float name="fov" value="39.597755"/>
+		<float name="principal_point_offset_x" value="0.000000"/>
+		<float name="principal_point_offset_y" value="-0.000000"/>
+		<float name="near_clip" value="0.100000"/>
+		<float name="far_clip" value="100.000000"/>
+		<transform name="to_world">
+			<rotate x="1" angle="-153.55930454308313"/>
+			<rotate y="1" angle="-46.69193131720504"/>
+			<rotate z="1" angle="-179.99997768819966"/>
+			<translate value="7.358891 4.958309 6.925791"/>
+		</transform>
+		<sampler type="independent">
+			<integer name="sample_count" value="$spp"/>
+			<integer name="seed" value="0"/>
+		</sampler>
+		<film type="hdrfilm">
+			<integer name="width" value="$resx"/>
+			<integer name="height" value="$resy"/>
+			<rfilter type="box"/>
+		</film>
+	</sensor>
+
+<!-- Materials -->
+
+	<bsdf type="twosided" id="mat-mat-mat-Material">
+		<bsdf type="principled">
+			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
+			<float name="spec_tint" value="0.000000"/>
+			<float name="spec_trans" value="0.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="roughness" value="0.840897"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheen_tint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoat_gloss" value="0.896210"/>
+			<float name="specular" value="0.500000"/>
+		</bsdf>
+	</bsdf>
+	<bsdf type="blendbsdf" id="mat-mat-mat-white">
+		<float name="weight" value="0.500000"/>
+		<bsdf type="blendbsdf">
+			<float name="weight" value="0.500000"/>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="1.000000 1.000000 1.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+		</bsdf>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+			</bsdf>
+		</bsdf>
+	</bsdf>
+	<bsdf type="blendbsdf" id="mat-mat-mat-wall">
+		<float name="weight" value="0.500000"/>
+		<bsdf type="blendbsdf">
+			<float name="weight" value="0.500000"/>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="1.000000 0.500000 0.200000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+		</bsdf>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+			</bsdf>
+		</bsdf>
+	</bsdf>
+	<bsdf type="blendbsdf" id="mat-mat-mat-222222">
+		<float name="weight" value="0.500000"/>
+		<bsdf type="blendbsdf">
+			<float name="weight" value="0.500000"/>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.133333 0.133333 0.133333" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+		</bsdf>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+			</bsdf>
+		</bsdf>
+	</bsdf>
+	<bsdf type="blendbsdf" id="mat-mat-mat-daa520">
+		<float name="weight" value="0.500000"/>
+		<bsdf type="blendbsdf">
+			<float name="weight" value="0.500000"/>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.854902 0.647059 0.125490" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+		</bsdf>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+			</bsdf>
+		</bsdf>
+	</bsdf>
+	<bsdf type="blendbsdf" id="mat-mat-mat-444444">
+		<float name="weight" value="0.500000"/>
+		<bsdf type="blendbsdf">
+			<float name="weight" value="0.500000"/>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.266667 0.266667 0.266667" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+		</bsdf>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+			</bsdf>
+		</bsdf>
+	</bsdf>
+	<bsdf type="blendbsdf" id="mat-mat-mat-roof">
+		<float name="weight" value="0.500000"/>
+		<bsdf type="blendbsdf">
+			<float name="weight" value="0.500000"/>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.290000 0.250000 0.210000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+		</bsdf>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+			</bsdf>
+		</bsdf>
+	</bsdf>
+	<bsdf type="blendbsdf" id="mat-mat-mat-ffbbbb">
+		<float name="weight" value="0.500000"/>
+		<bsdf type="blendbsdf">
+			<float name="weight" value="0.500000"/>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="1.000000 0.733333 0.733333" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+		</bsdf>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+			</bsdf>
+		</bsdf>
+	</bsdf>
+	<bsdf type="blendbsdf" id="mat-mat-mat-555555">
+		<float name="weight" value="0.500000"/>
+		<bsdf type="blendbsdf">
+			<float name="weight" value="0.500000"/>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.333333 0.333333 0.333333" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+		</bsdf>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+			</bsdf>
+		</bsdf>
+	</bsdf>
+	<bsdf type="blendbsdf" id="mat-mat-mat-eeeeee">
+		<float name="weight" value="0.500000"/>
+		<bsdf type="blendbsdf">
+			<float name="weight" value="0.500000"/>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.933333 0.933333 0.933333" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+		</bsdf>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+			</bsdf>
+		</bsdf>
+	</bsdf>
+	<bsdf type="blendbsdf" id="mat-mat-mat-areas_pedestrian">
+		<float name="weight" value="0.500000"/>
+		<bsdf type="blendbsdf">
+			<float name="weight" value="0.500000"/>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.086500 0.090842 0.088656" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+			<bsdf type="twosided">
+				<bsdf type="diffuse">
+					<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+				</bsdf>
+			</bsdf>
+		</bsdf>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<rgb value="0.000000 0.000000 0.000000" name="reflectance"/>
+			</bsdf>
+		</bsdf>
+	</bsdf>
+	<bsdf type="twosided" id="mat-mat-default-bsdf">
+		<bsdf type="diffuse">
+			<rgb value="0.800000 0.800000 0.800000" name="reflectance"/>
+		</bsdf>
+	</bsdf>
+
+<!-- Emitters -->
+
+	<emitter type="point">
+		<point name="position" x="4.076245307922363" y="5.903861999511719" z="-1.0054539442062378"/>
+		<rgb value="79.577469 79.577469 79.577469" name="intensity"/>
+	</emitter>
+
+<!-- Shapes -->
+
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_49.ply"/>
+		<ref id="mat-mat-mat-Material" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_50.ply"/>
+		<ref id="mat-mat-mat-white" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_51.ply"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_52.ply"/>
+		<ref id="mat-mat-mat-222222" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_53.ply"/>
+		<ref id="mat-mat-mat-daa520" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_54.ply"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_55.ply"/>
+		<ref id="mat-mat-mat-444444" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_56.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_57.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_58.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-ffbbbb" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_59.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_60.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_61.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_62.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_63.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_64.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_65.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-555555" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_66.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_67.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_68.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_69.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_70.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_71.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_72.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_73.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_74.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_75.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_76.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_77.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_78.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_79.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_80.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-white" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_81.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_82.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_83.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-white" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_84.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_85.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-555555" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_86.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_87.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_88.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_89.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_90.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_91.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_92.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_93.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_94.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_95.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_96.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_97.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_98.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_99.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_100.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_101.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_102.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_103.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_104.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_105.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_106.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_107.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_108.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_109.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_110.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-eeeeee" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_111.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_112.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_113.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_114.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_115.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_116.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_117.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_118.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_119.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_120.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_121.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_122.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_123.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_124.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_125.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_126.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_127.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_128.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_129.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_130.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_131.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_132.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_133.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_134.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_135.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_136.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_137.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_138.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_139.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_140.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_141.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_142.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_143.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_144.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_145.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_146.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_147.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_148.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_149.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_150.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_151.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_152.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_153.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_154.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_155.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_156.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_157.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_158.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_159.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_160.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_161.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_162.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_163.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_164.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-wall" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_165.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-roof" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_166.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-areas_pedestrian" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_167.ply"/>
+		<ref id="mat-mat-default-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_168.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-areas_pedestrian" name="bsdf"/>
+	</shape>
+	<shape type="ply">
+		<string name="filename" value="meshes/_unnamed_169.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-mat-mat-areas_pedestrian" name="bsdf"/>
+	</shape>
+</scene>

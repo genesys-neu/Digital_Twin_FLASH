@@ -43,13 +43,14 @@ def scan_rays(rays, max_distance, ray_origins=False, keep_render_setup=False, do
     returns_buffer = (ctypes.c_float * (numberOfRays * ELEMENTS_PER_RETURN))()
    
     print ("Raycount: ", numberOfRays)
-    
+    print("helloooooo")
     returns_buffer_uint = ctypes.cast(returns_buffer, ctypes.POINTER(ctypes.c_uint))
 
     array_of_returns = []
     if True:
     #try:
-      if blensorintern:
+      if 1 == 2:
+          print("aight")
           blensorintern.scan(numberOfRays, max_distance, elementsPerRay, keep_render_setup, do_shading,                 
                 "%016X"%(ctypes.addressof(rays_buffer)), "%016X"%(ctypes.addressof(returns_buffer)))
       else:

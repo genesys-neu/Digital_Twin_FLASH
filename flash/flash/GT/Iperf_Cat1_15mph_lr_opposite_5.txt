@@ -1,0 +1,36 @@
+Start time: 17:16:44.241851
+
+iperf 3.1.4
+Linux T92f70c 4.4.92 #0 SMP Tue Oct 17 17:46:20 2017 armv7l
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Tue, 17 Oct 2017 18:04:52 GMT
+Accepted connection from 192.168.100.1, port 49108
+      Cookie: T978ab0.1508263596.455677.59fa178f20
+      TCP MSS: 1448 (default)
+[  5] local 192.168.100.2 port 5201 connected to 192.168.100.1 port 49110
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 1000 second test
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.01   sec  88.0 MBytes   732 Mbits/sec                  
+[  5]   1.01-2.00   sec  4.38 MBytes  37.0 Mbits/sec                  
+[  5]   2.00-3.00   sec  1.12 MBytes  9.42 Mbits/sec                  
+[  5]   3.00-4.00   sec  1.89 MBytes  15.9 Mbits/sec                  
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec                  
+[  5]   5.00-6.00   sec  3.94 MBytes  33.1 Mbits/sec                  
+[  5]   6.00-7.00   sec  4.57 MBytes  38.3 Mbits/sec                  
+[  5]   7.00-8.00   sec  3.43 MBytes  28.8 Mbits/sec                  
+[  5]   8.00-9.00   sec  1.75 MBytes  14.6 Mbits/sec                  
+[  5]   9.00-10.00  sec   361 KBytes  2.95 Mbits/sec                  
+[  5]  10.00-11.00  sec  6.65 MBytes  55.8 Mbits/sec                  
+[  5]  11.00-12.00  sec  52.2 MBytes   438 Mbits/sec                  
+[  5]  12.00-13.00  sec   166 MBytes  1.39 Gbits/sec                  
+[  5]  13.00-14.00  sec  71.3 MBytes   598 Mbits/sec                  
+[  5]  14.00-15.00  sec  41.9 MBytes   352 Mbits/sec                  
+[  5]  15.00-16.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  16.00-17.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  17.00-18.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  18.00-19.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  19.00-20.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  20.00-21.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  21.00-22.00  sec  0.00 Bytes  0.00 bits/sec                  

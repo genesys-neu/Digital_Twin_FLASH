@@ -1,0 +1,36 @@
+Start time: 17:29:20.024727
+
+iperf 3.1.4
+Linux T92f70c 4.4.92 #0 SMP Tue Oct 17 17:46:20 2017 armv7l
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Tue, 17 Oct 2017 19:10:41 GMT
+Accepted connection from 192.168.100.1, port 47130
+      Cookie: T978ab0.1508267454.806577.7123592c23
+      TCP MSS: 1448 (default)
+[  5] local 192.168.100.2 port 5201 connected to 192.168.100.1 port 47132
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10000 second test
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.00   sec  1.07 MBytes  8.97 Mbits/sec                  
+[  5]   1.00-2.00   sec   474 KBytes  3.88 Mbits/sec                  
+[  5]   2.00-3.00   sec   297 KBytes  2.43 Mbits/sec                  
+[  5]   3.00-4.00   sec   734 KBytes  6.01 Mbits/sec                  
+[  5]   4.00-5.00   sec   652 KBytes  5.34 Mbits/sec                  
+[  5]   5.00-6.00   sec   194 KBytes  1.59 Mbits/sec                  
+[  5]   6.00-7.00   sec  1.04 MBytes  8.76 Mbits/sec                  
+[  5]   7.00-8.00   sec  7.00 MBytes  58.7 Mbits/sec                  
+[  5]   8.00-9.00   sec  5.87 MBytes  49.2 Mbits/sec                  
+[  5]   9.00-10.00  sec  5.59 MBytes  46.9 Mbits/sec                  
+[  5]  10.00-11.00  sec  18.7 MBytes   157 Mbits/sec                  
+[  5]  11.00-12.00  sec  32.6 MBytes   273 Mbits/sec                  
+[  5]  12.00-13.00  sec   120 MBytes  1.00 Gbits/sec                  
+[  5]  13.00-14.00  sec   115 MBytes   961 Mbits/sec                  
+[  5]  14.00-15.00  sec  3.25 MBytes  27.3 Mbits/sec                  
+[  5]  15.00-16.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  16.00-17.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  17.00-18.01  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  18.01-19.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  19.00-20.00  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  20.00-21.01  sec  0.00 Bytes  0.00 bits/sec                  
+[  5]  21.01-22.01  sec  0.00 Bytes  0.00 bits/sec                  

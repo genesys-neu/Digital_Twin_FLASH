@@ -10,25 +10,27 @@ folder_names = ['Twin-1_LOS.csv',
                 'Twin-3_LOS.csv',
                 'Twin-3_NLOS.csv']
 
-folder_names = ['power_real.csv']
+# folder_names = ['power_real.csv']
 # Metrics
 # base_sionna_path = 'test_rf/sionna/Twin-1_LOS.csv'
 base_sionna_path = '../test_rf/sionna/'
 base_wi_path = '../test_rf/WI/'
 # base_sionna_path = ''
-base_wi_path = ''
+# base_wi_path = ''
 
 
 for file in folder_names:
-    df_sionna = pd.read_csv(base_sionna_path + 'Twin-3_LOS.csv')
+    df_sionna = pd.read_csv(base_sionna_path + file)
     df_wi = pd.read_csv(base_wi_path + file)
     # print(df_sionna)
     if 'Twin-1' in file:
         column_to_sort_by = 'Max Propogated Power(dBm)'
         df_sionna = df_sionna.sort_values(by=column_to_sort_by)
         df_wi = df_wi.sort_values(by=column_to_sort_by)
-        sionna_power = df_sionna[column_to_sort_by].to_numpy()
-        wi_power = df_wi[column_to_sort_by].to_numpy()
+        sionna_power = df_sionna[column_to_sort_by].to_numpy() + 119
+        print(sionna_power)
+        wi_power = df_wi[column_to_sort_by].to_numpy() + 174
+        print(wi_power)
         sionna_antenna = df_sionna['Antenna'].to_list()
         wi_antenna = df_wi['Antenna'].to_list()
         sionna_antenna = np.array(\
@@ -80,8 +82,8 @@ for file in folder_names:
             column_to_sort_by = f'Power-{i} (dBm)'
             df_sionna = df_sionna.sort_values(by=column_to_sort_by)
             df_wi = df_wi.sort_values(by=column_to_sort_by)
-            sionna_power = df_sionna[column_to_sort_by].to_numpy()
-            wi_power = df_wi[column_to_sort_by].to_numpy()
+            sionna_power = df_sionna[column_to_sort_by].to_numpy() + 119
+            wi_power = df_wi[column_to_sort_by].to_numpy() + 174
             sionna_antenna = df_sionna[f'Antennas-{i}'].to_list()
             wi_antenna = df_wi[f'Antennas-{i}'].to_list()
             sionna_antenna = np.array(\

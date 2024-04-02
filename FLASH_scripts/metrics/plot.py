@@ -6,77 +6,36 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-def plot_los(d, simulator):
-    # d= 100*np.array([[0.523836096,0.717419592,0.726990546],[0.66929104,0.760386094,0.774503486],[0.766344896,0.787735874,0.794318105]])    # gps,img,lidar,all
-    d = 100 * np.array(d)
+def plot(d_sionna, d_wi, scenario):
+    d_sionna = 100 * np.array(d_sionna)
+    d_wi = 100 * np.array(d_wi)
 
+    df_sionna = pd.DataFrame(d_sionna, columns=['Base-Twin', '1R-Twin', '3R-Twin'])
+    df_wi = pd.DataFrame(d_wi, columns=['Base-Twin', '1R-Twin', '3R-Twin'])
 
-    df = pd.DataFrame(d, columns=['B-Twin','1R-Twin', '3R-Twin'])
-    print(df)
-    ax = plt.figure(figsize=(6,3)).add_subplot(111)
+    ax = plt.figure(figsize=(5, 5)).add_subplot(1,1,1)
 
-    plots = df.plot(ax=ax, kind='bar',width=0.7,color=['#FBD6AB', '#D1D1D1','#2F5597'],edgecolor='black',legend=False)
+    bar_width = 0.35
+    index = np.arange(len(df_sionna.columns))
 
-    bars = ax.patches
-    hatches = ''.join(h*len(df) for h in 'xo\.')
-    for bar, hatch in zip(bars, hatches):
-        bar.set_hatch(hatch)
-        ######################################
-    #     plots.annotate(format(bar.get_height(), '.2f'),(bar.get_x() + bar.get_width() ,bar.get_height()), ha='right', va='center',size=12, xytext=(0, 5),  weight='bold',textcoords='offset points')
-    #     ######################################
+    plots_sionna = df_sionna.plot(ax=ax, kind='bar', width=bar_width, position=0,
+                                  color=['lightgreen', 'mediumseagreen', 'darkgreen'], edgecolor='black', legend=False)
 
-    ax.legend(loc='center right', bbox_to_anchor=(1.01, 1.11), ncol=3,fontsize=14)
-    plt.xticks([0,1,2],['$\mathdefault{Acc_{(10,0)}}$', '$\mathdefault{Acc_{(10,1)}}$', '$\mathdefault{Acc_{(10,2)}}$'],fontsize=18,rotation=0)
+    plots_wi = df_wi.plot(ax=ax, kind='bar', width=bar_width, position=1,
+                          color=['lightblue', 'mediumblue', 'darkblue'], edgecolor='black', legend=False)
+
+    ax.legend(loc='upper center', ncol=2, fontsize=10)
+    plt.xticks(index + bar_width / 2, ['$\mathdefault{Acc_{(10,0)}}$', '$\mathdefault{Acc_{(10,1)}}$',
+                                       '$\mathdefault{Acc_{(10,2)}}$'], fontsize=12, rotation=0)
     plt.yticks(fontsize=18)
     axes = plt.gca()
     axes.set_ylim([50, 100])
+    axes.set_xlim([-0.5, len(df_sionna.columns) - 0.5])
 
-    if 'sionna' in simulator:
-        plt.savefig('plots/Sionna-LOS.png',bbox_inches='tight',dpi=400)
-    elif 'WI' in simulator:
-        plt.savefig('plots/WI-LOS.png',bbox_inches='tight',dpi=400)
+    # Add grid lines that go through the y-axis ticks
+    ax.grid(axis='y', linestyle='-', color='grey')
+
+    plt.savefig(f'plots/{scenario}_compare.png', bbox_inches='tight', dpi=400)
     # plt.show()
 
 
-
-
-######################NLOS
-from matplotlib import pyplot as plt
-
-
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-
-def plot_nlos(d, simulator):
-    # d= 100*np.array([[0.585930117,0.773015595,0.833195609],[0.746200108,0.826989243,0.862120697],[0.798447524,0.861584815,0.873762517]])    # gps,img,lidar,all
-    # d= 100*np.array([[0.585930117,0.773015595,0.800838779029525],[0.746200108,0.826989243,0.844179575707209],[0.798447524,0.861584815,0.852268667987478]])    # gps,img,lidar,all
-    d = 100 * np.array(d)
-
-
-    df = pd.DataFrame(d, columns=['B-Twin','1R-Twin', '3R-Twin'])
-    print(df)
-    ax = plt.figure(figsize=(6,3)).add_subplot(111)
-
-    plots = df.plot(ax=ax, kind='bar',width=0.7,color=['#FBD6AB', '#D1D1D1','#2F5597'],edgecolor='black',legend=False)
-
-    bars = ax.patches
-    hatches = ''.join(h*len(df) for h in 'xo\.')
-    for bar, hatch in zip(bars, hatches):
-        bar.set_hatch(hatch)
-        ######################################
-    #     plots.annotate(format(bar.get_height(), '.2f'),(bar.get_x() + bar.get_width() ,bar.get_height()), ha='right', va='center',size=12, xytext=(0, 5),  weight='bold',textcoords='offset points')
-    #     ######################################
-
-    ax.legend(loc='center right', bbox_to_anchor=(1.01, 1.11), ncol=3,fontsize=14)
-    plt.xticks([0,1,2],['$\mathdefault{Acc_{(10,0)}}$', '$\mathdefault{Acc_{(10,1)}}$', '$\mathdefault{Acc_{(10,2)}}$'],fontsize=18,rotation=0)
-    plt.yticks(fontsize=18)
-    axes = plt.gca()
-    axes.set_ylim([50, 100])
-
-
-    if 'sionna' in simulator:
-        plt.savefig('plots/Sionna-NLOS.png',bbox_inches='tight',dpi=400)
-    elif 'WI' in simulator:
-        plt.savefig('plots/WI-NLOS.png',bbox_inches='tight',dpi=400)
-    # plt.show()

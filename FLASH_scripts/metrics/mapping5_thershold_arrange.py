@@ -22,7 +22,7 @@ import random
 import math
 from collections import Counter
 from Twin1_open import open_area
-from plot import plot_los, plot_nlos
+from plot import plot
 
 plt.rcParams["figure.figsize"] = (6,4)
 from math import radians, cos, sin, asin, sqrt
@@ -48,7 +48,6 @@ def distance(lat1, lat2, lon1, lon2):
 
     # calculate the result
     return(c * r)
-
 
 def wi_arrange(sector_power_list):
     # print("sector_power_list",sector_power_list)
@@ -76,11 +75,10 @@ def show_all_files_in_directory(input_path,extension):
         return [input_path]
 
 ####Inputs
-parser = argparse.ArgumentParser(description='Description of your program')
-parser.add_argument('--simulator_path', type=str, help='Which simulator to use')
-args = parser.parse_args()
 
-simulator_path = args.simulator_path
+simulator_paths = [
+    '../test_rf/sionna/',
+    '../test_rf/WI/']
 WI_coordinates_file = "../../Richard_coords/opposite_lane_200_points_withHeights.csv"
 powers_files = ["Twin-2_LOS.csv",
                 "Twin-3_LOS.csv",
@@ -97,169 +95,182 @@ distance_limit_tx = 0.05
 thershold =1
 correlation_window = 30
 tx_lat, tx_long = 42.3378046793832, -71.08663802513
-thresh_aves = []
-averages = open_area(simulator_path=simulator_path)
-print(averages)
+if not os.listdir('accuracies'):
+    for simulator_path in simulator_paths:
+        averages = open_area(simulator_path=simulator_path)
+        print(averages)
 
-######################################################
-########################WI##############################
-######################################################
-#####arrange coordinates and powers of WI into dictionary
-####extract coordinates
-# for thershold in range (0, 3):
-with open(WI_coordinates_file, 'r', encoding='UTF8', newline='') as f:
-    reader = csv.reader(f)
-    data_coordinates = list(reader)
-WI_coordinates = []
-for d in data_coordinates[2:]:
-    WI_coordinates.append((float(d[2]),-float(d[3])))
-####extract powers
-for thershold in range(0, 3):
-    for power in powers_files:
-        WI_beam_powers = []
-        df = pd.read_csv(simulator_path + power)
-        for l in range(1,201):
-            beam_power = []
-            antenna_column = df['Antennas-'+str(l)]
-            power_column = df['Power-'+str(l)+' (dBm)']
-            for a in range(len(antenna_column)):
-                beam_power.append((antenna_column[a],power_column[a]))
-            WI_beam_powers.append(beam_power)
-        ###combine coordinates and powers, structure   {coord:['legacy1':0.12,..,'legacy14':0.9]}
-        coordinates_beam_powers = {}
-        for l in range(len(WI_beam_powers)):
-            coordinates_beam_powers[WI_coordinates[l]] = WI_beam_powers[l]
-
-        # print("coordinates_beam_powers",coordinates_beam_powers)
         ######################################################
-        ########################FLASH##############################
+        ########################WI##############################
         ######################################################
-        ##########read points from FLASH
-        if '_LOS' in power:
-            all_csv_flash = show_all_files_in_directory(flash_files[0],'Synchornized_data_with_SNR.csv')
-        else:
-            all_csv_flash = show_all_files_in_directory(flash_files[1],'Synchornized_data_with_SNR.csv')
-        # print("Total of %s files detected in FLASH" % len(all_csv_flash))
-        probabilities = []
-        total_samples , ouliers =0,0
-        for flash_csv in all_csv_flash:
-            # print("**************************************************",flash_csv)
-            with open(flash_csv, 'r', encoding='UTF8', newline='') as f:
-                reader = csv.reader(f)
-                data_flash = list(reader)
-            total_samples+=len(data_flash)
-            ###outliear
-            if ouliear_remove is True:
-                data_flash_without_outliear = []
-                for d in range(1,len(data_flash)):
-                    if distance(float(data_flash[d][8]),tx_lat,float(data_flash[d][9]),tx_long)<distance_limit_tx:   ###remove outliers
-                        data_flash_without_outliear.append(data_flash[d])
+        #####arrange coordinates and powers of WI into dictionary
+        ####extract coordinates
+        # for thershold in range (0, 3):
+        with open(WI_coordinates_file, 'r', encoding='UTF8', newline='') as f:
+            reader = csv.reader(f)
+            data_coordinates = list(reader)
+        WI_coordinates = []
+        for d in data_coordinates[2:]:
+            WI_coordinates.append((float(d[2]),-float(d[3])))
+        ####extract powers
+        for thershold in range(0, 3):
+            for power in powers_files:
+                WI_beam_powers = []
+                df = pd.read_csv(simulator_path + power)
+                for l in range(1,201):
+                    beam_power = []
+                    antenna_column = df['Antennas-'+str(l)]
+                    power_column = df['Power-'+str(l)+' (dBm)']
+                    for a in range(len(antenna_column)):
+                        beam_power.append((antenna_column[a],power_column[a]))
+                    WI_beam_powers.append(beam_power)
+                ###combine coordinates and powers, structure   {coord:['legacy1':0.12,..,'legacy14':0.9]}
+                coordinates_beam_powers = {}
+                for l in range(len(WI_beam_powers)):
+                    coordinates_beam_powers[WI_coordinates[l]] = WI_beam_powers[l]
+
+                # print("coordinates_beam_powers",coordinates_beam_powers)
+                ######################################################
+                ########################FLASH##############################
+                ######################################################
+                ##########read points from FLASH
+                if '_LOS' in power:
+                    all_csv_flash = show_all_files_in_directory(flash_files[0],'Synchornized_data_with_SNR.csv')
+                else:
+                    all_csv_flash = show_all_files_in_directory(flash_files[1],'Synchornized_data_with_SNR.csv')
+                # print("Total of %s files detected in FLASH" % len(all_csv_flash))
+                probabilities = []
+                total_samples , ouliers =0,0
+                for flash_csv in all_csv_flash:
+                    # print("**************************************************",flash_csv)
+                    with open(flash_csv, 'r', encoding='UTF8', newline='') as f:
+                        reader = csv.reader(f)
+                        data_flash = list(reader)
+                    total_samples+=len(data_flash)
+                    ###outliear
+                    if ouliear_remove is True:
+                        data_flash_without_outliear = []
+                        for d in range(1,len(data_flash)):
+                            if distance(float(data_flash[d][8]),tx_lat,float(data_flash[d][9]),tx_long)<distance_limit_tx:   ###remove outliers
+                                data_flash_without_outliear.append(data_flash[d])
+                            else:
+                                ouliers+=1
+                        data_flash_without_outliear.insert(0,data_flash[0])  ##adding the header to keep the structure
                     else:
-                        ouliers+=1
-                data_flash_without_outliear.insert(0,data_flash[0])  ##adding the header to keep the structure
-            else:
-                data_flash_without_outliear = data_flash
+                        data_flash_without_outliear = data_flash
 
-            ###arranging
-            if arranging is True:
-                distance_from_tx_data = {}
-                origin_lat, origin_long = float(data_flash_without_outliear[1][8]) , float(data_flash_without_outliear[1][9])
-                for d in range(1,len(data_flash_without_outliear)):
-                    lat_flash = float(data_flash_without_outliear[d][8])
-                    long_flash = float(data_flash_without_outliear[d][9])
-                    distance_from_tx_data[d] = distance(lat_flash,origin_lat,long_flash,origin_long)
-                all_distances = list(distance_from_tx_data.values())
-                indexes_decreasing = sorted(range(len(all_distances)), key=lambda k: all_distances[k],reverse=False)
-                data_flash_arranged = []
-                for i in indexes_decreasing:
-                    data_flash_arranged.append(data_flash_without_outliear[i+1])
-                data_flash_arranged.insert(0,data_flash_without_outliear[0])  ##adding the header to keep the structure
-            else:
-                data_flash_arranged = data_flash_without_outliear
-
-            # print("compare lens",len(data_flash),len(data_flash_without_outliear),len(data_flash_arranged))
-
-
-            ####correlation part
-            previous_lat = 0
-            previous_long = 0
-            startpoint_probaility = {}
-            for start_point in range(correlation_window):
-                start_point_inner = start_point
-                failuar = 0
-                counter = 0
-                for d in data_flash_arranged[1:]:
-                    found = False
-                    lat_flash = float(d[8])
-                    long_flash = float(d[9])
-                    rssi_flash = ast.literal_eval(d[15])
-                    snr_flash = ast.literal_eval(d[19])
-                    ids_flash = ast.literal_eval(d[16])
-
-                    #####remove dplicates of rssi/power measurments
-                    counting = Counter(ids_flash)
-                    unique_ids = list(counting.keys())
-                    unique_snr = []
-                    unique_rssi = []
-                    for u in unique_ids:
-                        repeats = [i for i in range(len(ids_flash)) if ids_flash[i]==u]
-                        ###only keep maximum
-                        unique_snr.append(max([snr_flash[r] for r in repeats]))
-                        unique_rssi.append(max([rssi_flash[r] for r in repeats]))
-                    print(unique_rssi)
-                    ###determin the flash sectors within thershold
-                    within_thershold_range = []
-                    for f in range(len(unique_snr)):
-                        if unique_snr[f]>=unique_snr[unique_rssi.index(max(unique_rssi))]-thershold:    ###snr of the best sector in flash minues thershold
-                            within_thershold_range.append(unique_ids[f])
-
-                    #####mapping
-                    if previous_long==0:
-                        previous_long = long_flash
-                        previous_lat = lat_flash
-                        distance_cm = 0
+                    ###arranging
+                    if arranging is True:
+                        distance_from_tx_data = {}
+                        origin_lat, origin_long = float(data_flash_without_outliear[1][8]) , float(data_flash_without_outliear[1][9])
+                        for d in range(1,len(data_flash_without_outliear)):
+                            lat_flash = float(data_flash_without_outliear[d][8])
+                            long_flash = float(data_flash_without_outliear[d][9])
+                            distance_from_tx_data[d] = distance(lat_flash,origin_lat,long_flash,origin_long)
+                        all_distances = list(distance_from_tx_data.values())
+                        indexes_decreasing = sorted(range(len(all_distances)), key=lambda k: all_distances[k],reverse=False)
+                        data_flash_arranged = []
+                        for i in indexes_decreasing:
+                            data_flash_arranged.append(data_flash_without_outliear[i+1])
+                        data_flash_arranged.insert(0,data_flash_without_outliear[0])  ##adding the header to keep the structure
                     else:
-                        distance_cm = 100000*distance(lat_flash,previous_lat,long_flash,previous_long)
+                        data_flash_arranged = data_flash_without_outliear
 
-                    if distance_cm>20:   ##if ditance higher than 20cm
-                        if start_point_inner+int(distance_cm/20)<200:   ###we only have 200 points, should not be higher
-                            start_point_inner+=int(distance_cm/20)     ###jumping step to go to next step
-                        previous_long = long_flash
-                        previous_lat = lat_flash
+                    # print("compare lens",len(data_flash),len(data_flash_without_outliear),len(data_flash_arranged))
 
 
-                    WI_report = coordinates_beam_powers[list(coordinates_beam_powers.keys())[start_point_inner]]
-                    # print("WI_report",WI_report)
-                    s,p = wi_arrange(WI_report)
-                    index_dec_wi = [i[0] for i in sorted(enumerate(p), key=lambda k: k[1], reverse=True)]   ##negative values
-                    s_sorted = [s[sorting] for sorting in index_dec_wi]
-                    p_sorted = [p[sorting] for sorting in index_dec_wi]
-                    for k in range(1,10):   ###set top-K here, (1,2) is top-1 for example
-                        if any(x in within_thershold_range for x in s_sorted[:k]):
-                            found = True
-                            break
-                    if found==False:
-                        failuar+=1
-                    counter+=1
-                startpoint_probaility[str(start_point)]=1-(failuar/counter)
-            probabilities.append((flash_csv,startpoint_probaility))
-        # print("percentage outlier",ouliers/total_samples)
-        prob_per_csv = []
-        for p in probabilities:
-            # print("per cvs",p[0],max(list(p[1].values())))
-            prob_per_csv.append(max(list(p[1].values())))
-        # print("prob_per_csv",prob_per_csv)
-        # print("average over all",sum(prob_per_csv)/len(prob_per_csv))
-        averages[thershold].append(sum(prob_per_csv)/len(prob_per_csv))
-        # print(probabilities)
+                    ####correlation part
+                    previous_lat = 0
+                    previous_long = 0
+                    startpoint_probaility = {}
+                    for start_point in range(correlation_window):
+                        start_point_inner = start_point
+                        failuar = 0
+                        counter = 0
+                        for d in data_flash_arranged[1:]:
+                            found = False
+                            lat_flash = float(d[8])
+                            long_flash = float(d[9])
+                            rssi_flash = ast.literal_eval(d[15])
+                            snr_flash = ast.literal_eval(d[19])
+                            ids_flash = ast.literal_eval(d[16])
 
-print(f'All averages([Twin-1 LOS, Twin-1 NLOS, Twin-2 LOS, Twin-3 LOS, Twin-2 NLOS, Twin-3 NLOS]): {averages}')
-plot_los(([averages[0][0], averages[1][0], averages[2][0]]
-          ,[averages[0][2], averages[1][2], averages[2][2]]
-          ,[averages[0][4], averages[1][4], averages[2][4]])
-          , simulator_path)
+                            #####remove dplicates of rssi/power measurments
+                            counting = Counter(ids_flash)
+                            unique_ids = list(counting.keys())
+                            unique_snr = []
+                            unique_rssi = []
+                            for u in unique_ids:
+                                repeats = [i for i in range(len(ids_flash)) if ids_flash[i]==u]
+                                ###only keep maximum
+                                unique_snr.append(max([snr_flash[r] for r in repeats]))
+                                unique_rssi.append(max([rssi_flash[r] for r in repeats]))
+                            # print(unique_rssi)
+                            ###determin the flash sectors within thershold
+                            within_thershold_range = []
+                            for f in range(len(unique_snr)):
+                                if unique_snr[f]>=unique_snr[unique_rssi.index(max(unique_rssi))]-thershold:    ###snr of the best sector in flash minues thershold
+                                    within_thershold_range.append(unique_ids[f])
 
-plot_nlos(([averages[0][1], averages[1][1], averages[2][1]]
-          ,[averages[0][3], averages[1][3], averages[2][3]]
-          ,[averages[0][5], averages[1][5], averages[2][5]])
-          , simulator_path)
+                            #####mapping
+                            if previous_long==0:
+                                previous_long = long_flash
+                                previous_lat = lat_flash
+                                distance_cm = 0
+                            else:
+                                distance_cm = 100000*distance(lat_flash,previous_lat,long_flash,previous_long)
+
+                            if distance_cm>20:   ##if ditance higher than 20cm
+                                if start_point_inner+int(distance_cm/20)<200:   ###we only have 200 points, should not be higher
+                                    start_point_inner+=int(distance_cm/20)     ###jumping step to go to next step
+                                previous_long = long_flash
+                                previous_lat = lat_flash
+
+
+                            WI_report = coordinates_beam_powers[list(coordinates_beam_powers.keys())[start_point_inner]]
+                            # print("WI_report",WI_report)
+                            s,p = wi_arrange(WI_report)
+                            index_dec_wi = [i[0] for i in sorted(enumerate(p), key=lambda k: k[1], reverse=True)]   ##negative values
+                            s_sorted = [s[sorting] for sorting in index_dec_wi]
+                            p_sorted = [p[sorting] for sorting in index_dec_wi]
+                            for k in range(1,10):   ###set top-K here, (1,2) is top-1 for example
+                                if any(x in within_thershold_range for x in s_sorted[:k]):
+                                    found = True
+                                    break
+                            if found==False:
+                                failuar+=1
+                            counter+=1
+                        startpoint_probaility[str(start_point)]=1-(failuar/counter)
+                    probabilities.append((flash_csv,startpoint_probaility))
+                # print("percentage outlier",ouliers/total_samples)
+                prob_per_csv = []
+                for p in probabilities:
+                    # print("per cvs",p[0],max(list(p[1].values())))
+                    prob_per_csv.append(max(list(p[1].values())))
+                # print("prob_per_csv",prob_per_csv)
+                # print("average over all",sum(prob_per_csv)/len(prob_per_csv))
+                averages[thershold].append(sum(prob_per_csv)/len(prob_per_csv))
+                # print(probabilities)
+        if 'sionna' in simulator_path:
+            df_los_sionna = [[averages[0][0], averages[1][0], averages[2][0]]
+                            ,[averages[0][2], averages[1][2], averages[2][2]]
+                            ,[averages[0][4], averages[1][4], averages[2][4]]]
+            df_nlos_sionna = [[averages[0][1], averages[1][1], averages[2][1]]
+                            ,[averages[0][3], averages[1][3], averages[2][3]]
+                            ,[averages[0][5], averages[1][5], averages[2][5]]]
+        if 'WI' in simulator_path:
+            df_los_WI = [[averages[0][0], averages[1][0], averages[2][0]]
+                            ,[averages[0][2], averages[1][2], averages[2][2]]
+                            ,[averages[0][4], averages[1][4], averages[2][4]]]
+            df_nlos_WI = [[averages[0][1], averages[1][1], averages[2][1]]
+                            ,[averages[0][3], averages[1][3], averages[2][3]]
+                            ,[averages[0][5], averages[1][5], averages[2][5]]]
+
+        print(f'All averages([Twin-1 LOS, Twin-1 NLOS, Twin-2 LOS, Twin-3 LOS, Twin-2 NLOS, Twin-3 NLOS]): {averages}')
+
+    df_los_sionna.to_csv('accuracies/sionna_LOS_accuracy.csv', index=False)
+    df_los_WI.to_csv('accuracies/WI_LOS_accuracy.csv', index=False)
+    df_nlos_sionna.to_csv('accuracies/sionna_NLOS_accuracy.csv', index=False)
+    df_nlos_WI.to_csv('accuracies/WI_NLOS_accuracy.csv', index=False)
+plot(df_los_sionna, df_los_WI, 'LOS')
+plot(df_nlos_sionna, df_nlos_WI, 'NLOS')

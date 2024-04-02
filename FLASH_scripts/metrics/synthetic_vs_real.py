@@ -7,9 +7,9 @@ synthetic_files = [
                 # 'Twin-1_LOS.csv',
                 # 'Twin-1_NLOS.csv', 
                 'Twin-2_LOS.csv',
-                # 'Twin-2_NLOS.csv',
+                'Twin-2_NLOS.csv',
                 'Twin-3_LOS.csv',
-                # 'Twin-3_NLOS.csv',
+                'Twin-3_NLOS.csv',
                 ]
 
 # Metrics
@@ -18,15 +18,17 @@ base_sionna_path = '../test_rf/sionna/'
 base_wi_path = '../test_rf/WI/'
 # base_sionna_path = ''
 base_real_path = '../test_rf/real/'
-restricted = True
+restricted = False
 
 
 for file in synthetic_files:
-    df_synthetic = pd.read_csv(base_sionna_path + file)
+    df_synthetic = pd.read_csv(base_wi_path + file)
     if '_LOS' in file:
-        df_real_path = base_real_path + f'LOS/episode_{0}.csv'
+        df_real_path = base_real_path + f'LOS/episode_{0}_snr.csv'
+        length = 201
     else:
-        df_real_path = base_real_path + f'NLOS/episode_{0}.csv'
+        df_real_path = base_real_path + f'NLOS/episode_{0}_snr.csv'
+        length = 161
     df_real = pd.read_csv(df_real_path)
     mag_total = 0
     cos_sim_tot = 0
@@ -35,13 +37,13 @@ for file in synthetic_files:
     ndcg_top10_tot = 0
     ci_ndcg_count = 0
 
-    for i in range (1, 201):
+    for i in range(1, length):
         column_to_sort_by = f'Power-{i} (dBm)'
         df_synthetic = df_synthetic.sort_values(by=column_to_sort_by)
         df_real = df_real.sort_values(by=column_to_sort_by)
         sionna_antenna = df_synthetic[f'Antennas-{i}'].to_list()
         real_antenna = df_real[f'Antennas-{i}'].to_list()
-        sionna_power = df_synthetic[column_to_sort_by].to_numpy()
+        sionna_power = df_synthetic[column_to_sort_by].to_numpy() + 119
         real_power = df_real[column_to_sort_by].to_numpy()
         sionna_antenna = np.array(\
                             [antenna.replace("Legacy_", "") for antenna in sionna_antenna])\
@@ -109,3 +111,10 @@ for file in synthetic_files:
 
 
 # For twins 2 and 3, get average of scores for entire 200 point experiment
+# For every geo loc, find the closest
+# sol 1, regen synth to find 1 to 1 mapping for real world
+# sol 2, produce 1 to 1 correspondance between real and synth
+# sol 2' if x - x' < delta, keep. If not, throw out
+# sol 3, interpolate beam powers
+# generate sionna data by friday: put in paper by next tuesday
+# average scores out and/or histograms, quantile bar plots, fidelity of an episode from t = 0 to t = end, t meaning 
